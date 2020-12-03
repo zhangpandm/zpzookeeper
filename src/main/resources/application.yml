@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: zpDisLock
+  redis:
+    host: 132.232.23.116
+#    host: r-2ze7e8b4b14b8384.redis.rds.aliyuncs.com
+    port: 6379
+    database: 21
+    password: zpdm1234
+    jedis:
+      pool:
+        max-active: 300
+    timeout: 2000
+    cluster:
+      nodes: 192.168.125.129:8001,192.168.125.129:8004,192.168.125.11:8001,192.168.125.11:8004,192.168.125.12:8001,192.168.125.12:8004
