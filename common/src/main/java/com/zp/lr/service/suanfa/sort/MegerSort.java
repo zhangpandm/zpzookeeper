@@ -1,7 +1,9 @@
 package com.zp.lr.service.suanfa.sort;
 
 
+import org.junit.Test;
 
+import java.util.Arrays;
 
 /**
  * @Auther: zhangpanm
@@ -10,7 +12,7 @@ package com.zp.lr.service.suanfa.sort;
  */
 public class MegerSort {
 
-    /*@Test
+    @Test
     public void testInserSort(){
         int[] a ={3,6,90,23,64,2,23,6,8,5};
         insertSort(a);
@@ -23,7 +25,7 @@ public class MegerSort {
         megerReduceSort(a);
         System.out.println(Arrays.toString(a));
 
-    }*/
+    }
     /**
      * 插入排序
      * @param data
