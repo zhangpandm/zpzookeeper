@@ -21,7 +21,7 @@ public class MegerSort {
 
     @Test
     public void testmegerReduceSort(){
-        int[] a ={3,6,90,23,64,2,23,6,8,5,886,-98};
+        int[] a ={3,6,90,23,64,2,23,886,-98};
         megerReduceSort(a);
         System.out.println(Arrays.toString(a));
 

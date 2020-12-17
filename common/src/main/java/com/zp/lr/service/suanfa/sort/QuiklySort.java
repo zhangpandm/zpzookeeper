@@ -19,8 +19,8 @@ public class QuiklySort {
         int [] data={73,85,10,231,11,23,67,101};
         int [] data2={12,73,85,10,21,141,23,67,103,7,94,85,21,85};
         int [] data3={3,6,1,1,6};
-        quikSort(data2);
-        System.out.println(Arrays.toString(data2));
+        quikSort(data);
+        System.out.println(Arrays.toString(data));
     }
     public static void quikSort(int[] data){
         quikSort(data,0,data.length-1);
@@ -57,10 +57,5 @@ public class QuiklySort {
         if(leftPoint<right)
         quikSort(data,rightPoint+1,right);//右区域
     }
-    @Test
-    public  void  test2(){
-        String mqAddress ="amqp-cn-oew1pk6i9001.mq-amqp.cn-beijing-327844-a-internal.aliyuncs.com";
-        String dd[] =mqAddress.split("\\.");
-        System.out.println(dd.length);
-    }
+
 }
