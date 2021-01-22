@@ -111,7 +111,6 @@ public class BinaryTree {
                         System.out.print("*:"+rightNode.getData());
                     }else{
                         System.out.print("*: ");
-
                     }
                     System.out.print("  ");
                 }
